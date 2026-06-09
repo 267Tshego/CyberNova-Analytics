@@ -1,0 +1,57 @@
+<header class="header">
+  <div class="nav-container">
+
+    <!-- Logo -->
+    <a routerLink="/" class="nav-logo">
+      <img
+        ngSrc="assets/logo.png"
+        alt="CyberNova Analytics"
+        class="logo-img"
+        width="48"
+        height="48"
+        priority
+      >
+
+      <div class="logo-text">
+        <span class="logo-name">CYBERNOVA</span>
+        <span class="logo-sub">ANALYTICS</span>
+      </div>
+    </a>
+
+    <!-- Nav links -->
+    <nav class="nav-links">
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+        Home
+      </a>
+
+      <a routerLink="/services" routerLinkActive="active">
+        Services
+      </a>
+
+      <a routerLink="/blog" routerLinkActive="active">
+        Blog
+      </a>
+
+      <a routerLink="/case-studies" routerLinkActive="active">
+        Case Studies
+      </a>
+
+      <a routerLink="/testimonials" routerLinkActive="active">
+        Testimonials
+      </a>
+
+      <a routerLink="/gallery" routerLinkActive="active">
+        Gallery
+      </a>
+
+      <a routerLink="/contact" routerLinkActive="active">
+        Contact
+      </a>
+
+      <a routerLink="/admin/login" class="admin-link">
+        Admin Login
+      </a>
+    </nav>
+
+  </div>
+</header>
